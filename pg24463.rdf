@@ -1,190 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/24463">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Naf1ef2d2ae01473b8cf469c93ab61c6a">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PQ</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:alternative>Noites de insónia, oferecidas a quem não pode dormir. Nº 01 (de 12)</dcterms:alternative>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-8.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128570</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272755</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncce71cde24b44ab59569ca1212be3411">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</pgterms:downloads>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111500</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N55c42e833b1c41c3be91491cbe9613b3">
+          <rdf:Description rdf:nodeID="N2cd727950cb1416fa4bebafc1f30757e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T20:46:20.497668</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:41:27.070121</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:tableOfContents>Proemio--Consolação a santos Nazareth--As ostras--Rehabilitação do snr. visconde de Margaride--A Rival de Brites de Almeida--Egas Moniz--Dous poetas ineditos do Porto--D. João 3.º, o principe perfeito--Subsidio para a historia de um futuro santo--O livro 5.º da Ordenação, titulo 22--Problema historico a premio--Desastre do santo officio no Porto--Rancho do Carqueja.</dcterms:tableOfContents>
-    <pgterms:marc508>Produced by Pedro Saborano</pgterms:marc508>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/6699">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</pgterms:birthdate>
-        <pgterms:alias>Botelho Castelo Branco, Camilo Ferreira</pgterms:alias>
-        <pgterms:alias>Correia Botelho, Camillo Castello Branco, visconde de</pgterms:alias>
-        <pgterms:name>Castelo Branco, Camilo</pgterms:name>
-        <pgterms:alias>Corrêa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
-        <pgterms:alias>Branco, Camilo Ferreira Botelho Castelo</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:deathdate>
-        <pgterms:alias>Branco, Camilo Castelo</pgterms:alias>
-        <pgterms:alias>Correa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77969</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:12</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbec57505cc33451782a6f41580854ecd">
+          <rdf:Description rdf:nodeID="Nf74d68cf857e43efab5cc4282bfc1e74">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T06:59:36.865945</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N986d3bf93fb646d2981091355db97b03">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <pgterms:marc260>Porto:&#13;
-Typographia de Antonio José da Silva Teixeira&#13;
-62--Rua da Cancella Velha--62&#13;
-1874</pgterms:marc260>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-h/24463-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2ec290880dcf42a193f297093cdb9c94">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:16</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141791</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128570</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-8.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52976</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56313</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N46c1f8579525492c8908763aae6b2e2f">
+          <rdf:Description rdf:nodeID="N2bde7ab3eb9545a8b24d14203aabdf9e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:18</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc542034c6ba24ca9bb8ba84d4d48a9cb">
+          <rdf:Description rdf:nodeID="N7fb3ed4b05b44151ba5c65d30aa642cb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:18</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:41:28.085100</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272746</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2865eb87fe59467e84ac52bac3d30d07">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N6868a28632474a35816e56a6c453a931">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>PT Periódicos</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N06e837ae583047b5875095b0b3f7a688">
+        <rdf:value>PQ</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</pgterms:downloads>
+    <pgterms:marc546>This ebook uses a 19th century spelling</pgterms:marc546>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:tableOfContents>Proemio--Consolação a santos Nazareth--As ostras--Rehabilitação do snr. visconde de Margaride--A Rival de Brites de Almeida--Egas Moniz--Dous poetas ineditos do Porto--D. João 3.º, o principe perfeito--Subsidio para a historia de um futuro santo--O livro 5.º da Ordenação, titulo 22--Problema historico a premio--Desastre do santo officio no Porto--Rancho do Carqueja.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nee5031a5467e4f9aaf27769f666f405e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13181</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:18:56.007484</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N5b89ab48475b44c7a2dbc79e906ebc6e">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/6699">
+        <pgterms:alias>Correia Botelho, Camillo Castello Branco, visconde de</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</pgterms:birthdate>
+        <pgterms:alias>Correa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
+        <pgterms:alias>Branco, Camilo Castelo</pgterms:alias>
+        <pgterms:name>Castelo Branco, Camilo</pgterms:name>
+        <pgterms:alias>Branco, Camilo Ferreira Botelho Castelo</pgterms:alias>
+        <pgterms:alias>Botelho Castelo Branco, Camilo Ferreira</pgterms:alias>
+        <pgterms:alias>Corrêa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>Noites de insomnia, offerecidas a quem não póde dormir. Nº 01 (de 12)</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2b4619cd22084c298b7a4ea0a793311d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0f7abfff51764caeb3a5eae1ad0392d1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52976</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:18</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc260>Porto:&#13;
+Typographia de Antonio José da Silva Teixeira&#13;
+62--Rua da Cancella Velha--62&#13;
+1874</pgterms:marc260>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65583</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:41:25.865138</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nabde75d64478415c95a18cbe8fad24b9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N9860bd21d01d4a8799f0339c467e7283">
+      <rdf:Description rdf:nodeID="Na2cd09de0f3849d1bb38a2f1168b8160">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
+    <pgterms:marc508>Produced by Pedro Saborano</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T20:46:19.656537</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N17b5cd082b874179b13642cce3ea83f3">
+          <rdf:Description rdf:nodeID="Ne4506b42f7994699b698ea681f7920f4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65582</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75524</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:41:26.117135</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:alternative>Noites de insónia, oferecidas a quem não pode dormir. Nº1 (de 12)</dcterms:alternative>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-31</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf6881482c574494195bbfb1e8b534419">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114932</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T06:59:35.369436</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Noites de insomnia, offerecidas a quem não póde dormir. Nº1 (de 12)</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N762b43e1a710421dbae730dbfeb1426a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Portuguese literature -- 19th century</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24463.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T20:46:18.914262</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130231</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:41:25.529149</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4d009f48be2b4f059caaa0d542b88f6d">
+          <rdf:Description rdf:nodeID="N88d8fe6c953c4e999775929fd6df8890">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130235</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24463/24463-h/24463-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:16</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141791</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c1dedb52be84305afd62029432682cf">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-30T16:29:18</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56313</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9148733e18ca4ba69c7fa83eeee86a95">
+          <rdf:Description rdf:nodeID="Nbd98fd8012f84465a7bd7efa85de6317">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24463"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:marc546>This ebook uses a 19th century spelling</pgterms:marc546>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco">
     <dcterms:description>en.wikipedia</dcterms:description>
